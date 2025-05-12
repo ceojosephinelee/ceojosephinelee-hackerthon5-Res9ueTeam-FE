@@ -1,0 +1,123 @@
+/* BankSalad-like UI: modern, clean, green-accented */
+.page-container {
+    max-width: 560px;
+    margin: 4rem auto;
+    padding: 2.5rem;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+  
+  .page-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: #222;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+    color: #555;
+    font-weight: 500;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  select {
+    width: 100%;
+    padding: 0.9rem 1rem;
+    font-size: 1rem;
+    border-radius: 12px;
+    border: 1px solid #e2e2e2;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+  }
+  
+  input:focus, select:focus {
+    border-color: #00c896;
+    outline: none;
+    background-color: #fff;
+  }
+  
+  button {
+    width: 100%;
+    padding: 0.9rem;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: white;
+    background-color: #00c896;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #00b184;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .mt-2 {
+    margin-top: 2rem;
+  }
+  
+  .link {
+    color: #00c896;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  /* 탭바 스타일 */
+  .tab-bar {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .tab-bar a {
+    color: #00C896;
+    font-weight: 500;
+    font-size: 1rem;
+    padding-bottom: 6px;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.2s;
+  }
+  
+  .tab-bar a:hover,
+  .tab-bar a.active {
+    border-color: #00C896;
+  }
+  
+  /* 회원가입/로그인 버튼 스타일 */
+  .auth-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .auth-buttons .btn {
+    background-color: #00C896;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.2s;
+  }
+  
+  .auth-buttons .btn:hover {
+    background-color: #00B184;
+  }
+  

@@ -1,0 +1,88 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    z-index: 1000;
+  }
+  
+.modal {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 320px;
+    max-height: 90vh;
+    overflow-y: auto;
+    box-sizing: border-box;
+  }
+  
+  .modal h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+    color: #00C896;
+    margin-bottom: 1rem;
+  }
+  
+  .modal label {
+    display: block;
+    font-size: 0.95rem;
+    margin-bottom: 0.8rem;
+    color: #333;
+  }
+  
+  .modal input,
+  .modal select {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+  }
+  
+  .modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-top: 1rem;
+  }
+  
+  .modal-buttons button {
+    flex: 1;
+    padding: 0.6rem 0.8rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .modal-buttons .edit {
+    background-color: #00C896;
+    color: white;
+  }
+  
+  .modal-buttons .edit:hover {
+    background-color: #00B184;
+  }
+  
+  .modal-buttons .delete {
+    background-color: #f05454;
+    color: white;
+  }
+  
+  .modal-buttons .delete:hover {
+    background-color: #d94343;
+  }
+  
